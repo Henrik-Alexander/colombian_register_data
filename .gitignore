@@ -1,0 +1,16 @@
+# Data types
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+*.sav
+*.xls
+*.Rda
+*.csv
+*.xlsx
+
+
+
+# Paths
+colombia_map/
+
