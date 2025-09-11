@@ -359,15 +359,27 @@ display: none;
 <h1>Colombian Vital Statistics Data</h1>
 <p>This repository contains the code to unpack, clean, and combine the
 Colombian register data for the period between 2000 and 2020.</p>
-</div>
-<div id="code-pipeline" class="section level1">
-<h1>Code-pipeline</h1>
+<div id="code-pipeline" class="section level2">
+<h2>Code-pipeline</h2>
 <p>You should be able to reproduce the results by running the <a href="META.R">Meta-File</a> file in the main directory. If you need to
 install packages, read the section ‘Packages’ below</p>
 </div>
-<div id="packages" class="section level1">
-<h1>Packages</h1>
-<p>If you want to install the packages on a go, just change the variable
+<div id="software-and-hardware" class="section level2">
+<h2>Software and hardware</h2>
+<p>The analysis were executed in <a href="https://www.r-project.org/"><strong>R</strong></a> version 4.2.1
+(2022-06-23 ucrt). The computing unit was platform
+x86_64-w64-mingw32/x64 (64-bit). The program was running under Windows
+Server x64 (build 17763)</p>
+<div id="packages" class="section level3">
+<h3>Packages</h3>
+<p>This work would not have been possible with the scientific and
+programming contributions of people who developed packages and made them
+available free of use on <a href="https://cran.r-project.org/"><strong>R-Cran</strong></a>. I list
+the packages used in this project to acknowledge the contribution of the
+authors and to ensure that people can download the required packages in
+order to fully reproduce the results. Furthermore, the interested reader
+can follow the link on the package name to read the vignettes. If you
+want to install the packages on a go, just change the variable
 <code>install</code> in the <a href="META.R">Meta-File</a> to
 <code>TRUE</code>, and you should be able to run the scripts.</p>
 <pre><code># Do you want to install packages? yes=TRUE, no=FALSE
@@ -387,6 +399,8 @@ by Matt Dowle et al.</li>
 <li>sf</li>
 <li>haven</li>
 </ul>
+</div>
+</div>
 </div>
 
 
