@@ -17,7 +17,7 @@ load("births/births_columbia.Rda")
 load("war_weights.Rda")
 
 # Load the map
-map_col <- read_sf("columbia_map/col_admbnda_adm1_mgn_20200416.shp")
+map_col <- read_sf("colombia_map/col_admbnda_adm1_mgn_20200416.shp")
 map_col <- map_col[, c("ADM1_ES", "geometry")]
 map_col <- rename(map_col, region = ADM1_ES)
 
