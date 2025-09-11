@@ -9,12 +9,16 @@
 # Data website: https://microdatos.dane.gov.co/index.php/catalog/central/about
 # Data stored under: Estadísticas Vitales
 
+# Do you want to install packages? yes=TRUE, no=FALSE
+install <- FALSE
 
 ### This file runs and estimates the rates ---------------
 
 # Install.packages
 packages <- c("data.table", "tidyverse", "haven", "xlsx", "sf")
-# install.packages(packages)
+if(install) {
+  install.packages(packages)
+}
 
 # Do you need to unzip the files
 unzip_files <- FALSE
